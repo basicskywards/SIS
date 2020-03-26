@@ -1,0 +1,2 @@
+apriltags_ros/apriltags:apriltags_ros/apriltags_ros:realsense-ros-2.2.7/realsense2_camera:realsense-ros-2.2.7/realsense2_description:tutorial:usb_cam
+-DCATKIN_DEVEL_PREFIX=/home/ndk/Documents/semeter_4/sensing_and_intelligent_systems/labs/lab4-ROS/sis_lab_all_2020/04-ROS_tutorial_2/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ndk/Documents/semeter_4/sensing_and_intelligent_systems/labs/lab4-ROS/sis_lab_all_2020/04-ROS_tutorial_2/catkin_ws/install -G Unix Makefiles
