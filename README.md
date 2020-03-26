@@ -11,3 +11,5 @@ This course covers the sensing and intelligence aspects of robots, including the
 - Unix-like system, Robot Operation System (ROS), C++, and Python 
 
 ![Topics covered](/imgs/topics.png)
+
+- [Course website](https://sensing-intelligent-system.github.io/)
