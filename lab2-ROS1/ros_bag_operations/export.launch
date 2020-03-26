@@ -1,0 +1,22 @@
+<launch>
+  <!-- <node pkg="rosbag" type="play" name="rosbag" required="true" args="/mnt/data/linux/bag_files/ProfShuai/cpev29_part2/2018-10-09-15-46_intensity-map-all-camera_cpev29/2018-10-09-16-36-32.bag"/> -->
+
+
+  <node name="extract"
+    pkg="image_view"
+    type="extract_images"
+    respawn="false"
+    required="true"
+    output="screen"
+    cwd="ROS_HOME">
+    <remap from="image" to="/123"/>
+  </node>
+
+<node type="republish"
+        pkg="image_transport"
+        name="republish"
+        args="compressed in:=/gmsl_camera/port_1/cam_0/image
+          raw out:=/123"/>
+
+
+</launch>

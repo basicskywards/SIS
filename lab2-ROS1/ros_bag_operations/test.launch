@@ -1,0 +1,8 @@
+<launch>
+  
+  <node type="republish"
+        pkg="image_transport"
+        name="republish"
+        args="compressed in:=/pylon_camera_node/image_raw
+          raw out:=/pylon_camera_node/image_raw"/>
+</launch>
