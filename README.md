@@ -1,4 +1,4 @@
-# Sensing and Intelligent Systems - NCTU, TW
+# SIS
 
 ### Course Description
 
